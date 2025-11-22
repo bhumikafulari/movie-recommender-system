@@ -44,8 +44,7 @@ The model processes the TMDB 5000 Movie Dataset, vectorizes the text data, and c
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/bhumikafulari/movie-recommender-system.git](https://github.com/bhumikafulari/movie-recommender-system.git)
-cd movie-recommender-system
+git clone https://github.com/bhumikafulari/movie-recommender-system.git
 ```
 
 2. Install Dependencies
@@ -70,7 +69,7 @@ If movie_dict.pkl and similarity.pkl are not present, run the Jupyter Notebook:
 2)Run all cells to generate the pickle files.
 
 7. Run the App
-    ```bash
+```bash
 streamlit run app.py
 ```
 
