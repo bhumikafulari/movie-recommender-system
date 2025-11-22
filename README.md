@@ -46,27 +46,30 @@ The model processes the TMDB 5000 Movie Dataset, vectorizes the text data, and c
 ```bash
 git clone [https://github.com/bhumikafulari/movie-recommender-system.git](https://github.com/bhumikafulari/movie-recommender-system.git)
 cd movie-recommender-system
-```bash
+```
 
 2. Install Dependencies
-
 Create a requirements.txt file (or install manually):
+```bash
 pip install streamlit pandas numpy scikit-learn nltk requests
+```
 
-3. Setup API Key (Crucial Step)
+4. Setup API Key (Crucial Step)
 The app fetches movie posters from TMDB. You need an API key.
 1)Get a free API Key from TMDB
 2)Inside your project folder, create a folder named .streamlit.
 3)Inside that folder, create a file named secrets.toml.
 4)Add your key to the file:
+```bash
   API_KEY = "your_tmdb_api_key_here"
+```
 
-4. Generate the Models (If .pkl files are missing)
+6. Generate the Models (If .pkl files are missing)
 If movie_dict.pkl and similarity.pkl are not present, run the Jupyter Notebook:
 1)Open Movies Recommendation System.ipynb.
 2)Run all cells to generate the pickle files.
 
-5. Run the App
+7. Run the App
 streamlit run app.py
 
 
