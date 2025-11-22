@@ -90,6 +90,6 @@ tmdb_5000_credits.csv
 
 Contributions, issues, and feature requests are welcome!
 
-📝 Author  
+## 📝 Author  
 
-## Bhumika Santosh Fulari
+### Bhumika Santosh Fulari
