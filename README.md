@@ -55,9 +55,13 @@ pip install streamlit pandas numpy scikit-learn nltk requests
 
 4. Setup API Key (Crucial Step)
 The app fetches movie posters from TMDB. You need an API key.
-1)Get a free API Key from TMDB
-2)Inside your project folder, create a folder named .streamlit.
-3)Inside that folder, create a file named secrets.toml.
+
+1)Get a free API Key from TMDB  
+
+2)Inside your project folder, create a folder named .streamlit.  
+
+3)Inside that folder, create a file named secrets.toml.  
+
 4)Add your key to the file:
 ```bash
   API_KEY = "your_tmdb_api_key_here"
