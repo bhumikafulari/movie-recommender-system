@@ -67,13 +67,6 @@ If movie_dict.pkl and similarity.pkl are not present, run the Jupyter Notebook:
 5. Run the App
 streamlit run app.py
 
-Here is the complete README.md file tailored specifically to your code (Streamlit app + Jupyter Notebook logic).
-
-I have added a specific section on Configuration because your app.py uses st.secrets["API_KEY"]. If others try to run this locally without setting up that secret file, the app will crash.
-
-You can copy the code block below and paste it directly into your GitHub repository.
-
-Markdown
 
 # 🎬 Movie Recommender System
 
@@ -117,9 +110,9 @@ The model processes the TMDB 5000 Movie Dataset, vectorizes the text data, and c
     * Calculating the similarity matrix.
 4.  **Deployment:** The model and data are serialized using `pickle` (`movie_dict.pkl`, `similarity.pkl`) and loaded into the Streamlit app.
 
-## 🔧 How to Run Locally
+ 🔧 How to Run Locally
 
-### 1. Clone the Repository
+ 1. Clone the Repository
 ```bash
 git clone [https://github.com/your-username/movie-recommender-system.git](https://github.com/your-username/movie-recommender-system.git)
 cd movie-recommender-system
