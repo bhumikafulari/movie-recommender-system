@@ -46,8 +46,10 @@ The model processes the TMDB 5000 Movie Dataset, vectorizes the text data, and c
 ```bash
 git clone [https://github.com/bhumikafulari/movie-recommender-system.git](https://github.com/bhumikafulari/movie-recommender-system.git)
 cd movie-recommender-system
+```bash
 
 2. Install Dependencies
+
 Create a requirements.txt file (or install manually):
 pip install streamlit pandas numpy scikit-learn nltk requests
 
